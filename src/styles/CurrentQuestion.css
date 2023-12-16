@@ -1,0 +1,136 @@
+
+
+/* Quiz Buttons */
+.quiz-buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px;
+    width: 80%;
+  }
+  
+  .btn{
+    border: none;
+    background-color: #4B5842;
+    color: #FFF;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: none;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    background-color: #708363;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  
+.answers-container.with-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 52%;
+  }
+  
+  .answers-container.with-image .answers {
+    flex: 0 0 40%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 200px;
+  }
+  
+  .fixed-image-size {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image{
+    width: 300px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+
+  .quiz-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 135px;
+  }
+  
+  .quiz-question{
+    text-align: center;
+    font-size: 18px;
+    flex-wrap: wrap;
+    color: #4B5842;
+    margin: 0;
+    padding: 40px;
+    width: 80%;
+  }
+  
+  /* Answers Div */
+  
+  .answers-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 12px;
+    align-items: center;
+    width: auto ;
+    height: auto;
+    padding-top: 36px;
+    margin: 0;
+  
+  }
+  
+  .answers{
+    border-radius: 12px;
+    border: 3px solid #ffffff;
+    background-color: #575757;
+    min-height: 48px;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    word-break: break-all;
+    margin: 0;
+    padding: 9px;
+  }
+  
+  .answers:hover{
+    border-radius: 10px;
+    border: 3px solid #f9f9f9;
+    background-color: #547ded;
+    color: #fff;
+  }
+  
+  .answers.correct{
+  border-color: #4caf50;
+  background-color: chartreuse;
+  color: #18183c;
+  }
+  
+  .answers.incorrect{
+    border-color: #d90707;
+    background-color: #e94141;
+    color:#fff;
+    }
+  
+  .answer-icon{
+    padding: 0 4px 0 4px;
+  }
+
+  .score-container p {
+    color: #4B5842;
+    font-weight: 700;
+  }

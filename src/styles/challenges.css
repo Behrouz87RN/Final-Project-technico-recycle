@@ -1,0 +1,40 @@
+.challenge-container{
+    margin: 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challenge-img-container img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 100%;
+}
+
+.challenge-text{
+    text-align: center;
+}
+
+.challenges button{
+    border: none;
+    background-color: #8FB339;
+    color: #FFF;
+    font-weight: 600;
+    padding: 8px 12px;
+    width: 30%;
+    border-radius: 12px;
+}
+
+.challenges button:hover{
+    color: #4B5842;
+    background-color: #C7D59F;
+    cursor: pointer;
+    
+}

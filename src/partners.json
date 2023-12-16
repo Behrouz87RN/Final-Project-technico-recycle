@@ -1,0 +1,164 @@
+{
+    "partners":[
+        {
+            "name": "Ikea",
+            "id": 1,
+            "logo":"/partners-logo/Ikea_logo.png",
+            "reward_type": "discount",
+            "industry": "furniture",
+            "bonus": ["paper", "metal", "glass", "plastic", "battery", "textil", "organic"],
+            "points": 1000,
+            "reward": "5% discount in any purchase"
+        },
+        {
+            "name": "Volvo",
+            "id": 2,
+            "logo":"/partners-logo/volvo.png",
+            "reward_type": "discount",
+            "industry": "Automotive",
+            "bonus":["plastic", "battery", "textil"],
+            "points": 2000,
+            "reward": "1 voucher for car wash"
+        },
+        {
+            "name": "H&M",
+            "id": 3,
+            "logo":"/partners-logo/H&M-logo.png",
+            "reward_type": "discount",
+            "industry": "Apparel Retail",
+            "bonus": ["textil"],
+            "points": 600,
+            "reward": "5% discount"
+        },
+        {
+            "name": "ICA",
+            "id": 4,
+            "logo":"/partners-logo/ICA-logotyp.png",
+            "reward_type": "discount",
+            "industry": "Food Retail",
+            "bonus": ["paper", "metal", "glass"],
+            "points": 1000,
+            "reward": "1 voucher for car wash"
+        },
+        {
+            "name": "Björn Borg",
+            "id": 5,
+            "logo":"/partners-logo/BjornBorg.png",
+            "reward_type": "discount",
+            "industry": "Apparel Retail",
+            "bonus": ["textil"],
+            "points": 2000,
+            "reward": "100:- voucher discount"
+        },
+        {
+            "name": "Ellos",
+            "id": 6,
+            "logo":"/partners-logo/logo-ellos.png",
+            "reward_type": "discount",
+            "industry":"Furniture",
+            "bonus": ["plastic","textil"],
+            "points": 800,
+            "reward": "5% discount"
+        },
+        {
+            "name": "In & Finn",
+            "id": 7,
+            "logo":"/partners-logo/inochfinnlogo.png",
+            "reward_type": "discount",
+            "industry": "Home",
+            "bonus": ["glass", "plastic", "battery"],
+            "points": 1300,
+            "reward": "10% discount in kitchen appliances"
+        },
+        {
+            "name": "Scandic Hotels",
+            "id": 8,
+            "logo":"/partners-logo/scandic-hotels.png",
+            "reward_type": "discount",
+            "industry": "Hotel",
+            "bonus": ["battery", "textil"],
+            "points": 3000,
+            "reward": "20% discount in in one day stay"
+        },
+        {
+            "name": "Norwegian Airlines",
+            "id": 9,
+            "logo":"/partners-logo/norwegian-logo.png",
+            "reward_type": "discount",
+            "industry": "Travel",
+            "bonus": ["plastic", "battery", "organic"],
+            "points": 1000,
+            "reward": "2% discount in any flight"
+        },
+        {
+            "name": "Viaplay",
+            "id": 10,
+            "logo":"/partners-logo/viaplay.png",
+            "reward_type": "discount",
+            "industry": "Entertainment",
+            "bonus": ["plastic"],
+            "points": 2000,
+            "reward": "10% discount in one month subscription"
+        },
+        {
+            "name": "Foodora",
+            "id": 11,
+            "logo":"/partners-logo/foodora-logo.png",
+            "reward_type": "discount",
+            "industry": "Food Delivery",
+            "bonus": ["paper"],
+            "points": 500,
+            "reward": "50:- discount in food delivery"
+        },
+        {
+            "name": "Fotografiska",
+            "id": 12,
+            "logo":"/partners-logo/Fotografiska_logo.png",
+            "reward_type": "discount",
+            "industry": "Entertainment",
+            "bonus": ["paper", "plastic"],
+            "points": 500,
+            "reward": "50:- discount in food delivery"
+        },
+        {
+            "name": "Coca-Cola",
+            "id": 13,
+            "logo":"/partners-logo/coca-cola-logo.png",
+            "reward_type": "product",
+            "industry": "Beverage",
+            "bonus": ["glass", "metal"],
+            "points": 100,
+            "reward": "1 free coca-cola 250ml in any place"
+        },
+        {
+            "name": "Lyko",
+            "id": 14,
+            "logo":"/partners-logo/lyko.png",
+            "reward_type": "discount",
+            "industry": "Personal Care",
+            "bonus": ["plastic"],
+            "points": 800,
+            "reward": "50kr discount in makeups"
+        },
+        {
+            "name": "The Body Shop",
+            "id": 15,
+            "logo":"/partners-logo/thebodyshop.png",
+            "reward_type": "discount",
+            "industry": "Personal Care",
+            "bonus": ["plastic"],
+            "points": 1000,
+            "reward": "70kr discount in body creams"
+        },
+        {
+            "name": "Rituals",
+            "id": 16,
+            "logo":"/partners-logo/rituals-logo.png",
+            "reward_type": "discount",
+            "industry": "Personal Care",
+            "bonus": ["plastic"],
+            "points": 1000,
+            "reward": "10% discount in shower gel"
+        }
+    ]
+}
